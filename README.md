@@ -229,14 +229,13 @@ cross_val_score(model, X, y, cv=5)
 
 The performance of the models can be compared using their accuracy and classification metrics.
 
-| Model         |   Accuracy |  Precision |     Recall |   F1-Score |
-| ------------- | ---------: | ---------: | ---------: | ---------: |
-| Decision Tree |     72     |     47     |     55     |     51     |
-| Random Forest |     77     |     57     |     58     |     57     |
-| XGBoost       |     78     |     58     |     60     |     59     |
+| Model         | Cross-Validation Accuracy |  Accuracy |  Precision |     Recall |   F1-Score |
+| ------------- | ------------------------: | --------: | ---------: | ---------: | ---------: |
+| Decision Tree |             78            |     72    |     47     |     55     |     51     |
+| Random Forest |             84            |     77    |     57     |     58     |     57     |
+| XGBoost       |             83            |     78    |     58     |     60     |     59     |
 
-**Best Model:** XGBoost / Random Forest / Decision Tree
-*(Update this after comparing your actual results.)*
+**Best Model:** Random Forest
 
 ---
 
